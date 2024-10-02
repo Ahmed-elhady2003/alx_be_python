@@ -10,9 +10,9 @@ class safe_divide:
 
 
         except ZeroDivisionError:
-            print("cannot divid by zero")
+            print("Error: Cannot divide by zero.")
         except ValueError:
-            print("undifine value") 
+            print("Error: Please enter numeric values only.") 
             return   
         else:
-            print(result)
+            return result
