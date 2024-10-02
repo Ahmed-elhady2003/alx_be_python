@@ -3,7 +3,7 @@ class safe_divide:
        # self.numerator = numerator
        # self.denominator = denominator
 
-    def safe_divide(numerator,denominator):
+    def safe_divide(float(numerator),float(denominator)):
         try:
            result= numerator/denominator
 
