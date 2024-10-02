@@ -1,7 +1,5 @@
 class safe_divide:
-    def __init__(self)#, numerator, denominator):
-       # self.numerator = numerator
-       # self.denominator = denominator
+    def __init__(self)
 
     def safe_divide(float(numerator),float(denominator)):
         try:
