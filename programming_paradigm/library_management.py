@@ -1,5 +1,5 @@
 class Book:
-    def _init_(self, title, author):
+    def __init__(self, title, author):
         """Initialize a book with a title and author. It is available by default."""
         self.title = title  # Public attribute
         self.author = author  # Public attribute
@@ -25,7 +25,7 @@ class Book:
 
 
 class Library:
-    def _init_(self):
+    def __init__(self):
         """Initialize the library with an empty list of books."""
         self.__books = []  # Private list to store books
 
